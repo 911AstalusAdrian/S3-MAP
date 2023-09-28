@@ -1,0 +1,1232 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v1
+Ref(int) v2
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v1
+Ref(int) v2
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v2
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v2
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (0,int)
+v2 -> (0,int)
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v1,20)
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (0,int)
+v2 -> (0,int)
+Output:
+File Table:
+Heap:
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (1,int)
+v2 -> (0,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v2,30)
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (1,int)
+v2 -> (0,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+newLock(x)
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)));((lock(x);wH(v1,rH(v1) + 1));unlock(x))))
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)))
+lock(x)
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((fork(wH(v2,rH(v2) + 1));(wH(v2,rH(v2) + 1);unlock(x))))
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+fork(((lock(x);wH(v1,rH(v1) - 1));unlock(x)))
+lock(x)
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+fork(wH(v2,rH(v2) + 1))
+wH(v2,rH(v2) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+fork(wH(v2,rH(v2) + 1))
+wH(v2,rH(v2) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v2,rH(v2) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 5 ----------------
+Execution Stack:
+wH(v2,rH(v2) + 1)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 30
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 5----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 31
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+wH(v1,rH(v1) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 31
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v2,rH(v2) + 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 31
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 31
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+lock(x)
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 2
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 4
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+wH(v1,rH(v1) - 1)
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 21
+2 -> 32
+LockTable:
+1 -> 4
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> 4
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+unlock(x)
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> 4
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(v1))
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(v2))
+Symbol Table:
+x -> 1
+v1 -> (1,int)
+v2 -> (2,int)
+Output:
+20
+File Table:
+Heap:
+1 -> 20
+2 -> 32
+LockTable:
+1 -> -1
+----------------END STATE PROGRAM 1----------------
+

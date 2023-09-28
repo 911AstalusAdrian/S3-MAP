@@ -1,0 +1,9 @@
+IStatement ex15 = new CompoundStatement(new VariableDeclarationStatement("v1", new IntType()),
+                new CompoundStatement(new AssignmentStatement("v1", new ValueExpression(new IntValue(2))),
+                        new CompoundStatement(new VariableDeclarationStatement("v2", new IntType()),
+                                new CompoundStatement(new AssignmentStatement("v2", new ValueExpression(new IntValue(3))),
+                                        new CompoundStatement(new VariableDeclarationStatement("cond", new BoolType()),
+                                                new CompoundStatement(new AssignmentStatement("cond", new ValueExpression(new BoolValue(true))),
+                                                        new IfStatement(new VariableExpression("cond"), new PrintStatement(new MULExpressionEXM(
+                                                                new VariableExpression("v1"), new VariableExpression("v2")
+                                                        )),new PrintStatement(new VariableExpression("v1")))))))));

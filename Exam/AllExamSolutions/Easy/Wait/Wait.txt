@@ -1,0 +1,6 @@
+IStatement ex14 = new CompoundStatement(new VariableDeclarationStatement("v", new IntType()),
+                new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntValue(20))),
+                        new CompoundStatement(new WaitStatementEXM(10),
+                                new CompoundStatement(new AssignmentStatement("v", new ArithmeticExpression(
+                                        new VariableExpression("v"), new ValueExpression(new IntValue(10)), '*'
+                                )), new PrintStatement(new VariableExpression("v"))))));

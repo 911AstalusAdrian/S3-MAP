@@ -1,0 +1,1452 @@
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v1:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v1 = 2}|(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v1 = 2}
+]
+
+Symbol table: v1:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+(v2:int)|{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(v2:int)
+]
+
+Symbol table: v1:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v2 = 3}|(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{v2 = 3}
+]
+
+Symbol table: v1:2
+v2:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+(cond:bool)|{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+(cond:bool)
+]
+
+Symbol table: v1:2
+v2:3
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{cond = true}|if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+[
+{cond = true}
+]
+
+Symbol table: v1:2
+v2:3
+cond:false
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+if(cond){
+	Print{MUL(v1 v2)}
+}else{
+	Print{v1}
+}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+Print{MUL(v1 v2)}
+]
+
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: 
+Symbol table: v1:2
+v2:3
+cond:true
+
+Output list: 1
+
+File table: 
+Heap table: 
+----------------------------------------------------
+

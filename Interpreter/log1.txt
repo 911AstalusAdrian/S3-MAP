@@ -1,0 +1,238 @@
+THREAD ID: 14
+Execution stack: 
+	Ref Int a
+	Ref Int b;Int v;New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	Ref Int b;Int v;New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	Ref Int b
+	Int v;New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	Int v;New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int, b=0->Int}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	Int v
+	New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int, b=0->Int}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	New(a,0);New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int, b=0->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	New(a,0)
+	New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=0->Int, b=0->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	New(b,0);wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=0->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	New(b,0)
+	wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=0->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	wh(a,1);wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=0, 72=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	wh(a,1)
+	wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=0, 72=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	wh(b,2);v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	wh(b,2)
+	v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=0}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v=rH(a) < rH(b)?100:200;print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v=rH(a) < rH(b)?100:200
+	print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	(IF(rH(a) < rH(b)) THEN(v = 100)ELSE(v = 200))
+	print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v = 100
+	print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=0}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	print(v);v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	print(v)
+	v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: []
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v=rH(b)-2 > rH(a)?100:200;print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: [100]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v=rH(b)-2 > rH(a)?100:200
+	print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: [100]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	(IF(rH(b)-2 > rH(a)) THEN(v = 100)ELSE(v = 200))
+	print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: [100]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	v = 200
+	print(v)
+Symbol table{a=69->Int, b=72->Int, v=100}
+Output: [100]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+	print(v)
+Symbol table{a=69->Int, b=72->Int, v=200}
+Output: [100]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------
+THREAD ID: 14
+Execution stack: 
+Symbol table{a=69->Int, b=72->Int, v=200}
+Output: [100, 200]
+FileTable: {}
+Heap: {69=1, 72=2}
+Latch Table: 
+---------------------------------------------------

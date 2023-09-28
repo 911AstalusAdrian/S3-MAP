@@ -1,0 +1,574 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+int w
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+int w
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int w
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int w
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 0
+w -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 2
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 0
+w -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+w = 5
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+sum(v * 10,w)
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+v -> 25
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@35d0e3a0
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+a -> 20
+b -> 5
+v -> 25
+Output:
+25
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork(product(v,w))
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork(sum(v,w))
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+product(v,w)
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+int v
+v = a * b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+sum(v,w)
+Symbol Table:
+v -> 2
+w -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+int v
+v = a * b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+int v
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+v = a * b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+v -> 0
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+int v
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+v = a * b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+v -> 0
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+v -> 0
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+v -> 10
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+v = a + b
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+v -> 0
+Output:
+25
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@333e0630
+Symbol Table:
+a -> 2
+b -> 5
+v -> 10
+Output:
+25
+2
+10
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+print(v)
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+v -> 7
+Output:
+25
+2
+10
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+model.statements.multithreadingStatements.ReturnFromProcedureStatement@273afd10
+Symbol Table:
+a -> 2
+b -> 5
+v -> 7
+Output:
+25
+2
+10
+7
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+

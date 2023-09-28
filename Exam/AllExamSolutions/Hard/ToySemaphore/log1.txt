@@ -1,0 +1,211 @@
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+[
+(v:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+[
+{v = 2}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: v:2
+
+Output list: 2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: v:2
+
+Output list: 2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+[
+(v:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+[
+{v = 2}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: v:2
+
+Output list: 2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+[
+(v:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 2}|Print{v}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+[
+{v = 2}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:2
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: v:2
+
+Output list: 2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+

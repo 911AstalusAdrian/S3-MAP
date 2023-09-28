@@ -1,0 +1,460 @@
+Execution stack: [
+(v:int)|{v = 4}|while(v > 0) {
+Print{v}|{v = v - 1}
+}|Print{v}
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+(v:int)|{v = 4}|while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+{v = 4}|while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+(v:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+{v = 4}|while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = 4}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:4
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+Print{v}|{v = v - 1}
+]
+
+Symbol table: v:4
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+[
+Print{v}
+]
+
+Symbol table: v:4
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:4
+
+Output list: 4
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:3
+
+Output list: 4
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+Print{v}|{v = v - 1}
+]
+
+Symbol table: v:3
+
+Output list: 4
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+[
+Print{v}
+]
+
+Symbol table: v:3
+
+Output list: 4
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:3
+
+Output list: 4
+3
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:2
+
+Output list: 4
+3
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+Print{v}|{v = v - 1}
+]
+
+Symbol table: v:2
+
+Output list: 4
+3
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+[
+Print{v}
+]
+
+Symbol table: v:2
+
+Output list: 4
+3
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:2
+
+Output list: 4
+3
+2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:1
+
+Output list: 4
+3
+2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+Print{v}|{v = v - 1}
+]
+
+Symbol table: v:1
+
+Output list: 4
+3
+2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+[
+Print{v}
+]
+
+Symbol table: v:1
+
+Output list: 4
+3
+2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:1
+
+Output list: 4
+3
+2
+1
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+[
+while(v > 0) {
+Print{v}|{v = v - 1}
+}
+]
+
+Symbol table: v:0
+
+Output list: 4
+3
+2
+1
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:0
+
+Output list: 4
+3
+2
+1
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: 
+Symbol table: v:0
+
+Output list: 4
+3
+2
+1
+0
+
+File table: 
+Heap table: 
+----------------------------------------------------
+

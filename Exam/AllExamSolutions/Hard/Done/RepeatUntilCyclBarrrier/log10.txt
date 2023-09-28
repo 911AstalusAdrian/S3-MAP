@@ -1,0 +1,311 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+Ref(int) a
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+Ref(int) a
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) a
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) a
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (0,int)
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 10
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (0,int)
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (0,int)
+v -> 10
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(a,22)
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (0,int)
+v -> 10
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((wH(a,30);(v = 32;(print(v);print(rH(a))))))
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+wH(a,30)
+v = 32
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+wH(a,30)
+v = 32
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+File Table:
+Heap:
+1 -> 22
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+10
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+v = 32
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+10
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+v = 32
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 10
+Output:
+10
+30
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 32
+Output:
+10
+30
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(v)
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 32
+Output:
+10
+30
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(rH(a))
+Symbol Table:
+a -> (1,int)
+v -> 32
+Output:
+10
+30
+32
+File Table:
+Heap:
+1 -> 30
+----------------END STATE PROGRAM 2----------------
+

@@ -1,0 +1,808 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v1
+int cnt
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+Ref(int) v1
+int cnt
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int cnt
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int cnt
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 0
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+new(v1,1)
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 0
+v1 -> (0,int)
+Output:
+File Table:
+Heap:
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 0
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+createSemaphore(cnt,rH(v1))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 0
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(print(rH(v1));release(cnt)))))
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((acquire(cnt);(wH(v1,rH(v1) * 10);(wH(v1,rH(v1) * 2);(print(rH(v1));release(cnt))))))
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 10)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 1
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[2]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+acquire(cnt)
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(rH(v1) - 1)
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+acquire(cnt)
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[1]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 10)
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 10
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 100
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+wH(v1,rH(v1) * 2)
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 100
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 200
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+print(rH(v1))
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+File Table:
+Heap:
+1 -> 200
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+release(cnt)
+Symbol Table:
+cnt -> 1
+v1 -> (1,int)
+Output:
+10
+9
+200
+File Table:
+Heap:
+1 -> 200
+SemaphoreTable:
+1 -> 1=[3]
+----------------END STATE PROGRAM 3----------------
+

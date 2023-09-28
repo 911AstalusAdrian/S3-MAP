@@ -1,0 +1,59 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = 2
+print(v)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = 2
+print(v)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 2
+print(v)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 2
+print(v)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v)
+Symbol Table:
+v -> 2
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+

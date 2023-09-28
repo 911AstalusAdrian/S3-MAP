@@ -1,0 +1,622 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = 20
+wait(10)
+print(v * 10)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+v = 20
+wait(10)
+print(v * 10)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 20
+wait(10)
+print(v * 10)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 20
+wait(10)
+print(v * 10)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(10)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(10)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(10)
+wait(9)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(10)
+wait(9)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(9)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(9)
+wait(8)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(9)
+wait(8)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(8)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(8)
+wait(7)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(8)
+wait(7)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(7)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(7)
+wait(6)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(7)
+wait(6)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(6)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(6)
+wait(5)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(6)
+wait(5)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(5)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(5)
+wait(4)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(5)
+wait(4)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(4)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(4)
+wait(3)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(4)
+wait(3)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(3)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(3)
+wait(2)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(3)
+wait(2)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(2)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(2)
+wait(1)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(2)
+wait(1)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(1)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(1)
+wait(0)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(1)
+wait(0)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+wait(0)
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v * 10)
+Symbol Table:
+v -> 20
+Output:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+

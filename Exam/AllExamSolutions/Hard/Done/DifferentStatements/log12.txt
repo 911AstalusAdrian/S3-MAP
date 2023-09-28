@@ -1,0 +1,122 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v1
+int v2
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v1
+int v2
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v2
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v2
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 0
+v2 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v1 = 2
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 0
+v2 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 2
+v2 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v2 = 3
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 2
+v2 -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(MUL(v1, v2))
+Symbol Table:
+v1 -> 2
+v2 -> 3
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+

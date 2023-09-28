@@ -1,0 +1,12 @@
+IStatement ex13 = new CompoundStatement(new VariableDeclarationStatement("v", new IntType()),
+                new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntValue(10))),
+                        new CompoundStatement(new ForkStatement(new CompoundStatement(new AssignmentStatement("v", new ArithmeticExpression(
+                                new VariableExpression("v"), new ValueExpression(new IntValue(1)), '-'
+                        )),new CompoundStatement(new AssignmentStatement("v", new ArithmeticExpression(
+                                new VariableExpression("v"), new ValueExpression(new IntValue(1)), '-'
+                        )), new PrintStatement(new VariableExpression("v"))))), new CompoundStatement(
+                                new SleepStatementEXM(10), new CompoundStatement(
+                                        new AssignmentStatement("v", new ArithmeticExpression(new VariableExpression("v"),
+                                                new ValueExpression(new IntValue(10)), '*')), new PrintStatement(new VariableExpression("v"))
+                        )
+                        ))));

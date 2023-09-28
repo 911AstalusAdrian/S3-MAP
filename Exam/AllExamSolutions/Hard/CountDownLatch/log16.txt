@@ -1,0 +1,432 @@
+ID: 1
+Execution stack: [
+{a = 10}|Print{a * 10}
+]
+[
+(a:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{a = 10}|Print{a * 10}
+]
+
+Symbol table: a:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{a * 10}
+]
+[
+{a = 10}
+]
+
+Symbol table: a:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{a * 10}
+]
+
+Symbol table: a:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: a:10
+
+Output list: 100
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(b:int)|(c:int)|{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+(a:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(b:int)|(c:int)|{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(c:int)|{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+(b:int)
+]
+
+Symbol table: a:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(c:int)|{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:0
+b:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+(c:int)
+]
+
+Symbol table: a:0
+b:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{a = 1}|{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:0
+b:0
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+{a = 1}
+]
+
+Symbol table: a:0
+b:0
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{b = 2}|{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:1
+b:0
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+{b = 2}
+]
+
+Symbol table: a:1
+b:0
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{c = 5}|
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:1
+b:2
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+[
+{c = 5}
+]
+
+Symbol table: a:1
+b:2
+c:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+|Print{300}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+[
+
+switch(a * 10)
+(case b * c:  Print{a}|Print{b})
+(case 10: Print{100}|Print{200})
+(default: Print{300})
+
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+[
+if(a * 10 == b * c){
+	Print{a}|Print{b}
+}else{
+	if(a * 10 == 10){
+	Print{100}|Print{200}
+}else{
+	Print{300}
+}
+}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+[
+Print{a}|Print{b}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+[
+Print{b}
+]
+[
+Print{a}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+[
+Print{b}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 1
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{300}
+]
+
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 1
+2
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: a:1
+b:2
+c:5
+
+Output list: 1
+2
+300
+
+File table: 
+Heap table: 
+----------------------------------------------------
+

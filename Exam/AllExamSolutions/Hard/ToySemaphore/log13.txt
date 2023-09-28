@@ -1,0 +1,391 @@
+ID: 1
+Execution stack: [
+{v = 10}|Fork{
+{v = v - 1}|{v = v - 1}|Print{v}
+}|sleep(10)|{v = v * 10}|Print{v}
+]
+[
+(v:int)
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = 10}|Fork{
+{v = v - 1}|{v = v - 1}|Print{v}
+}|sleep(10)|{v = v * 10}|Print{v}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Fork{
+{v = v - 1}|{v = v - 1}|Print{v}
+}|sleep(10)|{v = v * 10}|Print{v}
+]
+[
+{v = 10}
+]
+
+Symbol table: v:0
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Fork{
+{v = v - 1}|{v = v - 1}|Print{v}
+}|sleep(10)|{v = v * 10}|Print{v}
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+sleep(10)|{v = v * 10}|Print{v}
+]
+[
+Fork{
+{v = v - 1}|{v = v - 1}|Print{v}
+}
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+sleep(10)|{v = v * 10}|Print{v}
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v = v - 1}|{v = v - 1}|Print{v}
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(10)
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v = v - 1}|Print{v}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(9)
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+{v = v - 1}|Print{v}
+]
+
+Symbol table: v:9
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(8)
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+Print{v}
+]
+[
+{v = v - 1}
+]
+
+Symbol table: v:9
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(7)
+]
+
+Symbol table: v:10
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:8
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(6)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 2
+Execution stack: 
+Symbol table: v:8
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(5)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(4)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(3)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(2)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(1)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+[
+sleep(0)
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+{v = v * 10}|Print{v}
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+[
+{v = v * 10}
+]
+
+Symbol table: v:10
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}
+]
+
+Symbol table: v:100
+
+Output list: 8
+
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: v:100
+
+Output list: 8
+100
+
+File table: 
+Heap table: 
+----------------------------------------------------
+

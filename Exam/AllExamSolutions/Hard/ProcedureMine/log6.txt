@@ -1,0 +1,327 @@
+Execution stack: [
+(v:Ref(int))|New{v, 20}|(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+New{v, 20}|(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+[
+(v:Ref(int))
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+New{v, 20}|(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: v:(0 -> int)
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+[
+New{v, 20}
+]
+
+Symbol table: v:(0 -> int)
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+Execution stack: [
+(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+Execution stack: [
+New{a, v}|Print{v}|Print{a}
+]
+[
+(a:Ref(Ref(int)))
+]
+
+Symbol table: v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+Execution stack: [
+New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: a:(0 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+Execution stack: [
+Print{v}|Print{a}
+]
+[
+New{a, v}
+]
+
+Symbol table: a:(0 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+Execution stack: [
+Print{v}|Print{a}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+Execution stack: [
+Print{a}
+]
+[
+Print{v}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+Execution stack: [
+Print{a}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: (1 -> int)
+
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+Execution stack: 
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: (1 -> int)
+(2 -> Ref(int))
+
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+New{v, 20}|(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+[
+(v:Ref(int))
+]
+
+Symbol table: 
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+New{v, 20}|(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: v:(0 -> int)
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+[
+New{v, 20}
+]
+
+Symbol table: v:(0 -> int)
+
+Output list: 
+File table: 
+Heap table: 
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+(a:Ref(Ref(int)))|New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+New{a, v}|Print{v}|Print{a}
+]
+[
+(a:Ref(Ref(int)))
+]
+
+Symbol table: v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+New{a, v}|Print{v}|Print{a}
+]
+
+Symbol table: a:(0 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}|Print{a}
+]
+[
+New{a, v}
+]
+
+Symbol table: a:(0 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{v}|Print{a}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{a}
+]
+[
+Print{v}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: 
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: [
+Print{a}
+]
+
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: (1 -> int)
+
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+
+ID: 1
+Execution stack: 
+Symbol table: a:(2 -> Ref(int))
+v:(1 -> int)
+
+Output list: (1 -> int)
+(2 -> Ref(int))
+
+File table: 
+Heap table: 1 -> 20
+2 -> (1 -> int)
+
+----------------------------------------------------
+

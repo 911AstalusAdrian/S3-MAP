@@ -1,0 +1,18 @@
+IStatement ex18 = new CompoundStatement(new VariableDeclarationStatement("a", new ReferenceType(new IntType())),
+                new CompoundStatement(new VariableDeclarationStatement("b", new ReferenceType(new IntType())),
+                        new CompoundStatement(new VariableDeclarationStatement("v", new IntType()),
+                                new CompoundStatement(new HeapNewStatement("a", new ValueExpression(new IntValue(0))),
+                                        new CompoundStatement(new HeapNewStatement("b", new ValueExpression(new IntValue(0))),
+                                                new CompoundStatement(new HeapWritingStatement("a", new ValueExpression(new IntValue(1))),
+                                                        new CompoundStatement(new HeapWritingStatement("b", new ValueExpression(new IntValue(2))),
+                                                                new CompoundStatement(new ConditionalAssignmentStatementEXM("v", new RelationalExpression(new HeapReadingExpression(new VariableExpression("a")),
+                                                                        "<", new HeapReadingExpression(new VariableExpression("b")))
+                                                                ,new ValueExpression(new IntValue(100)), new ValueExpression(new IntValue(200))),
+                                                                        new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                                                                new CompoundStatement(new ConditionalAssignmentStatementEXM(
+                                                                                        "v", new RelationalExpression(new ArithmeticExpression(new HeapReadingExpression(new VariableExpression("b")),
+                                                                                        new ValueExpression(new IntValue(2)), '-'), ">", new HeapReadingExpression(new VariableExpression("a"))),
+                                                                                        new ValueExpression(new IntValue(100)),
+                                                                                        new ValueExpression(new IntValue(200)))
+                                                                                , new PrintStatement(new VariableExpression("v")))
+                                                                                )))))))));

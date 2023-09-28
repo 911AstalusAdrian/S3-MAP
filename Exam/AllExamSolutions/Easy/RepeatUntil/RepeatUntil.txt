@@ -1,0 +1,17 @@
+IStatement ex17 = new CompoundStatement(new VariableDeclarationStatement("v", new IntType()),
+                new CompoundStatement(new AssignmentStatement("v", new ValueExpression(new IntValue(0))),
+                        new CompoundStatement(new RepeatUntilStatementEXM(new CompoundStatement(
+                                new ForkStatement(new CompoundStatement(new PrintStatement(new VariableExpression("v")),
+                                        new AssignmentStatement("v", new ArithmeticExpression(new VariableExpression("v"), new ValueExpression(new IntValue(1)), '-'))))
+                        , new AssignmentStatement("v", new ArithmeticExpression(new VariableExpression("v"), new ValueExpression(new IntValue(1)), '+'))),
+                                new RelationalExpression(new VariableExpression("v"), "!=", new ValueExpression(new IntValue(3)))),
+                                new CompoundStatement(new VariableDeclarationStatement("x", new IntType()),
+                                        new CompoundStatement(new VariableDeclarationStatement("y", new IntType()),
+                                                new CompoundStatement(new VariableDeclarationStatement("z", new IntType()),
+                                                        new CompoundStatement(new VariableDeclarationStatement("w", new IntType()),
+                                                                new CompoundStatement(new AssignmentStatement("x", new ValueExpression(new IntValue(1))),
+                                                                        new CompoundStatement(new AssignmentStatement("y", new ValueExpression(new IntValue(2))),
+                                                                                new CompoundStatement(new AssignmentStatement("z", new ValueExpression(new IntValue(3))),
+                                                                                        new CompoundStatement(new AssignmentStatement("w", new ValueExpression(new IntValue(4))),
+                                                                                                new PrintStatement(new ArithmeticExpression(new VariableExpression("v"), new ValueExpression(new IntValue(10)), '*')))))))))))));
+        

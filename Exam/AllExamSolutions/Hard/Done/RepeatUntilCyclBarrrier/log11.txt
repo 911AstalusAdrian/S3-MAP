@@ -1,0 +1,750 @@
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+int x
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int v
+int x
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int x
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int x
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+int y
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = 0
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+(REPEAT (fork((print(v);v = v - 1));v = v + 1) UNTIL v == 3)
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 2 ----------------
+Execution Stack:
+v = v - 1
+Symbol Table:
+v -> 0
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 2----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 3 ----------------
+Execution Stack:
+v = v - 1
+Symbol Table:
+v -> 1
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 3----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+fork((print(v);v = v - 1))
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+v = v + 1
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+(WHILE(!v == 3) (fork((print(v);v = v - 1));v = v + 1))
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+print(v)
+v = v - 1
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+File Table:
+Heap:
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 0
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 4 ----------------
+Execution Stack:
+v = v - 1
+Symbol Table:
+v -> 2
+x -> 0
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 4----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+x = 1
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 0
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+y = 3
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 0
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 3
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+No operation
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 3
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
+
+----------------START STATE PROGRAM 1 ----------------
+Execution Stack:
+print(v * 10)
+Symbol Table:
+v -> 3
+x -> 1
+y -> 3
+Output:
+0
+1
+2
+File Table:
+Heap:
+----------------END STATE PROGRAM 1----------------
+
